@@ -155,7 +155,7 @@
     - Нажать кнопку "with a friend"
     - выбрать Choose task by name or tags = "apply_discount"
     - Нажать кнопку "Create Invite"
-    - Ожидать принятия приглашения другом
+    - Ожидать принятия приглашения другом 
   expected-result: |
     Началась игра по выбранным параметрам
 
