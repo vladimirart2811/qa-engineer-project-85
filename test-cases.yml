@@ -253,11 +253,18 @@
   requirement: |
    При возвращении в игру отображается оставшееся время до конца игры
   prerequisites:
-    Открыта главная страница на вкладке LOBBY, есть ранее созданная игра
+    Открыта главная страница
   test-data: |
-    нет данных
+   Level = elementary
+   Game Type = with a bot
+   Time control = 10 min
+   Choose task by name or tags = random task
   steps:
-    - Нажать на кнопку "Continue"
+    - Нажать кнопку "Create a game"
+    - Выбрать заданные параметры игры
+    - Нажать на кнопку "Create battle"
+    - В игровом режиме нажать "Back to home"
+    - На главной странице нажать "Continue"
   expected-result: |
    Игрок сразу видит оставшееся до конца игры время
 
